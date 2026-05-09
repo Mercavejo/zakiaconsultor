@@ -260,12 +260,28 @@ h3 {
 }
 
 .button.secondary {
-  border-color: rgba(248, 243, 231, 0.42);
-  color: var(--ivory);
+  border-color: rgba(159, 116, 33, 0.42);
+  background: rgba(255, 250, 240, 0.72);
+  color: var(--ink);
 }
 
 .button.secondary:hover {
   border-color: rgba(212, 175, 55, 0.78);
+  background: rgba(212, 175, 55, 0.12);
+  color: var(--deep-green);
+}
+
+.hero .button.secondary,
+.dark-section .button.secondary {
+  border-color: rgba(248, 243, 231, 0.42);
+  background: transparent;
+  color: var(--ivory);
+}
+
+.hero .button.secondary:hover,
+.dark-section .button.secondary:hover {
+  border-color: rgba(212, 175, 55, 0.78);
+  background: rgba(212, 175, 55, 0.08);
   color: var(--gold);
 }
 
