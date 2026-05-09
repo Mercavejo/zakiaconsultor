@@ -120,6 +120,19 @@ a {
   color: var(--gold-strong);
 }
 
+.site-nav .back-to-main {
+  border: 1px solid rgba(218, 166, 45, 0.58);
+  border-radius: 999px;
+  padding: 10px 14px;
+  color: var(--gold-strong);
+  background: rgba(8, 8, 8, 0.42);
+}
+
+.site-nav .back-to-main:hover {
+  background: var(--gold);
+  color: #080808;
+}
+
 .nav-toggle {
   display: none;
   width: 44px;
